@@ -1,0 +1,5 @@
+string[] names = { "John", "Sarah", "Michael" };
+Array.Sort(names);
+foreach (string name in names) {
+    Console.WriteLine(name);
+}
